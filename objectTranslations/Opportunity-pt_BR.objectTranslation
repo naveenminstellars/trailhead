@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <help>Pesquisar seu contrato alterado.</help>
+        <label></label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>O Salesforce CPQ usa esse campo para converter automaticamente ativos e assinaturas.</help>
+        <label></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Selecione essa caixa de seleção para criar Preços contratados sem criar um Contrato.</help>
+        <label></label>
+        <name>SBQQ__CreateContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>O identificador exclusivo para a transação Alteração: nova cotação, que é o ID da cotação primária original.</help>
+        <label></label>
+        <name>SBQQ__OrderGroupID__c</name>
+    </fields>
+    <fields>
+        <help>Marque esta caixa de seleção para criar automaticamente um pedido a partir da cotação primária.</help>
+        <label></label>
+        <name>SBQQ__Ordered__c</name>
+    </fields>
+    <fields>
+        <help>O Salesforce CPQ usa isso para apontar para a cotação primária nessa oportunidade.</help>
+        <label></label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Indica se essa oportunidade é uma oportunidade de renovação.</help>
+        <label></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help>Contrato sendo renovado por essa oportunidade de renovação. Se vários contratos acumularem-se para essa oportunidade, isso apontará para o contrato mestre.</help>
+        <label></label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <webLinks>
+        <label></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

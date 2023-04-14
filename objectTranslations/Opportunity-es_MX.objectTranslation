@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>CurrentGenerators__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>DeliveryInstallationStatus__c</name>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In progress</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yet to begin</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>MainCompetitors__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>OrderNumber__c</name>
+    </fields>
+    <fields>
+        <help>Búsqueda de consulta de su contrato corregido.</help>
+        <label></label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Salesforce CPQ utiliza este campo para convertir automáticamente activos y suscripciones.</help>
+        <label></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación para crear precios contratados sin crear un contrato.</help>
+        <label></label>
+        <name>SBQQ__CreateContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>El identificador exclusivo para la transacción Corrección: Presupuesto repetido, que es el Id. del presupuesto principal original.</help>
+        <label></label>
+        <name>SBQQ__OrderGroupID__c</name>
+    </fields>
+    <fields>
+        <help>Seleccione esta casilla de verificación para crear automáticamente un pedido a partir del presupuesto principal.</help>
+        <label></label>
+        <name>SBQQ__Ordered__c</name>
+    </fields>
+    <fields>
+        <help>Salesforce CPQ esta opción para apuntar al presupuesto principal de esta oportunidad.</help>
+        <label></label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Indica que esta oportunidad es una oportunidad de renovación.</help>
+        <label></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help>El contrato que esta oportunidad de renovación está renovando. Si se resumen varios contratos en esta oportunidad, esta opción apunta al contrato principal.</help>
+        <label></label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>TrackingNumber__c</name>
+    </fields>
+    <webLinks>
+        <label></label>
+        <name>DeliveryStatus</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

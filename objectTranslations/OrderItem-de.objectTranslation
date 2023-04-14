@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label></label>
+        <name>Hardware_Color__c</name>
+        <picklistValues>
+            <masterLabel>Black</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>Measurement_Standard__c</name>
+        <picklistValues>
+            <masterLabel>Imperial</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metric</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Gibt an, ob das Auftragsprodukt aktiviert ist.</help>
+        <label></label>
+        <name>SBQQ__Activated__c</name>
+    </fields>
+    <fields>
+        <help>Aus diesem Auftragsprodukt erstellter Vermögenswert</help>
+        <label></label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Legt die Abrechnungshäufigkeit fest.</help>
+        <label></label>
+        <name>SBQQ__BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <help>Die Abrechnungsart definiert, wann die Abrechnung erfolgt.</help>
+        <label></label>
+        <name>SBQQ__BillingType__c</name>
+    </fields>
+    <fields>
+        <help>Der Zonenpreis, der für dieses Auftragsprodukt zum Zeitpunkt der Auftragserstellung gilt.</help>
+        <label></label>
+        <name>SBQQ__BlockPrice__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, ob Buchungen enthalten sind.</help>
+        <label></label>
+        <name>SBQQ__BookingsIndicator__c</name>
+    </fields>
+    <fields>
+        <help>Ein intern verwendetes Feld, das auf den Stamm seines übergeordneten Pakets verweist.</help>
+        <label></label>
+        <name>SBQQ__BundleRoot__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Die Art der Produktkosten.</help>
+        <label></label>
+        <name>SBQQ__ChargeType__c</name>
+    </fields>
+    <fields>
+        <help>Die Vertragsaktion, aus der dieses Auftragsprodukt erstellt wird.</help>
+        <label></label>
+        <name>SBQQ__ContractAction__c</name>
+    </fields>
+    <fields>
+        <help>Der Vertrag für das Abonnement, das aus diesem Auftragsprodukt erstellt wird.</help>
+        <label></label>
+        <name>SBQQ__Contract__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, ob für das Auftragsprodukt ein Vertrag erstellt wurde.</help>
+        <label></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Steuert das Vertragsverhalten eines Auftragsprodukts.</help>
+        <label></label>
+        <name>SBQQ__ContractingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Contract Separately</masterLabel>
+            <translation>Separaten Vertrag erstellen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Contract</masterLabel>
+            <translation>Keinen Vertrag erstellen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inherit</masterLabel>
+            <translation>Übernehmen</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Laufzeit des Abonnements, die nur gilt, wenn das Produkt ein Abonnement ist. Der Wert wird beim ersten Erstellen des Belegpostens aus dem Feld &quot;Abonnementlaufzeit&quot; des zugehörigen Produkts kopiert.</help>
+        <label></label>
+        <name>SBQQ__DefaultSubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Bei Produkten mit mehreren Segmenten ist dies der Preisdimensionstyp (z. B. &quot;JAHR&quot;, &quot;MONAT&quot;, &quot;QUARTAL&quot;) des Angebotsbelegpostens.</help>
+        <label></label>
+        <name>SBQQ__DimensionType__c</name>
+    </fields>
+    <fields>
+        <help>Rabattregelung, die auf dieses Auftragsprodukt angewendet wird.</help>
+        <label></label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gesamtpreisbetrag des Auftragsprodukts.</help>
+        <label></label>
+        <name>SBQQ__OrderProductBookings__c</name>
+    </fields>
+    <fields>
+        <help>Die tatsächliche Menge des im Auftrag angegebenen Produkts.</help>
+        <label></label>
+        <name>SBQQ__OrderedQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Gibt die für das Auftragsprodukt geltende Preisdimension an.</help>
+        <label></label>
+        <name>SBQQ__PriceDimension__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Preisregelung, die auf dieses Auftragsprodukt angewendet wird.</help>
+        <label></label>
+        <name>SBQQ__PriceSchedule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt an, wie der Preis für diesen Belegposten berechnet wird: Bei &quot;Liste&quot; wird der Rabatt vom Listenpreis abgezogen, bei &quot;Kosten&quot; wird ein Aufschlag zu den Kosten addiert.</help>
+        <label></label>
+        <name>SBQQ__PricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Block</masterLabel>
+            <translation>Zone</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation>Kosten</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom</masterLabel>
+            <translation>Benutzerdefiniert</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Liste</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Percent Of Total</masterLabel>
+            <translation>Prozent vom Gesamtwert</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Legen Sie den Produktabonnementtyp des Auftragspostens fest.</help>
+        <label></label>
+        <name>SBQQ__ProductSubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help>Berechnetes Verhältnis, das zum Berechnen des Zuteilungspreises verwendet wird.</help>
+        <label></label>
+        <name>SBQQ__ProrateMultiplier__c</name>
+    </fields>
+    <fields>
+        <help>Der Angebotsbelegposten, anhand dessen dieses Auftragsprodukt erstellt wird.</help>
+        <label></label>
+        <name>SBQQ__QuoteLine__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Listenstückpreis für das Produkt, das mit diesem Belegposten angeboten wird. Der Listenpreis stammt aus dem Preisbuch.</help>
+        <label></label>
+        <name>SBQQ__QuotedListPrice__c</name>
+    </fields>
+    <fields>
+        <help>Die Angebotsmenge.</help>
+        <label></label>
+        <name>SBQQ__QuotedQuantity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt das Auftragsprodukt an, das mit diesem Auftragsprodukt überarbeitet wird.</help>
+        <label></label>
+        <name>SBQQ__RevisedOrderProduct__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Bei Produkten mit mehreren Segmenten ist dies der Index, der die Position dieses Auftragsprodukts in der Segmenttabelle angibt.</help>
+        <label></label>
+        <name>SBQQ__SegmentIndex__c</name>
+    </fields>
+    <fields>
+        <help>Bei Produkten mit mehreren Segmenten ist dies ein freigegebener Schlüssel, mit dem Angebotsbelegposten mit mehreren Dimensionen zusammen gruppiert werden.</help>
+        <label></label>
+        <name>SBQQ__SegmentKey__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__ShippingAccount__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt den aktuellen Status des Auftragsprodukts an. Dieser lautet standardmäßig &quot;Entwurf&quot;, wenn ein Auftrag erstellt wird.</help>
+        <label></label>
+        <name>SBQQ__Status__c</name>
+    </fields>
+    <fields>
+        <help>Gibt an, wie der Abonnementpreis berechnet wird. Ist dieses Feld leer, steht der Belegposten nicht für ein Abonnementprodukt.</help>
+        <label></label>
+        <name>SBQQ__SubscriptionPricing__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__SubscriptionTerm__c</name>
+    </fields>
+    <fields>
+        <help>Gibt den Abonnementtyp zum Bestimmen der Vertragspreise an.</help>
+        <label></label>
+        <name>SBQQ__SubscriptionType__c</name>
+    </fields>
+    <fields>
+        <help>Aus diesem Auftragsprodukt erstelltes Abonnement</help>
+        <label></label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Geschätzter Steuerbetrag</help>
+        <label></label>
+        <name>SBQQ__TaxAmount__c</name>
+    </fields>
+    <fields>
+        <help>Legt den Steuercode für Besteuerungsregeln fest.</help>
+        <label></label>
+        <name>SBQQ__TaxCode__c</name>
+    </fields>
+    <fields>
+        <help>Laufzeitrabattregelung, die für dieses Auftragsprodukt angewendet wird.</help>
+        <label></label>
+        <name>SBQQ__TermDiscountSchedule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Datum, an dem das mit diesem Auftragsprodukt verbundene Abonnement beendet wurde</help>
+        <label></label>
+        <name>SBQQ__TerminatedDate__c</name>
+    </fields>
+    <fields>
+        <help>Der Nettopreis des einzelnen Belegposten über die gesamte Laufzeit.</help>
+        <label></label>
+        <name>SBQQ__UnproratedNetPrice__c</name>
+    </fields>
+    <fields>
+        <help>Abonnement, für das mit diesem Belegposten ein Upgrade durchgeführt wird. Bei der Vertragserstellung für das Angebot wird das Feld für das Beendigungsdatum dieses Abonnements ausgefüllt.</help>
+        <label></label>
+        <name>SBQQ__UpgradedSubscription__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>System_Voltage__c</name>
+        <picklistValues>
+            <masterLabel>120V</masterLabel>
+            <translation></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>240V</masterLabel>
+            <translation></translation>
+        </picklistValues>
+    </fields>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__CannotChangeBookingIndicatorOnActivation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage></errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+</CustomObjectTranslation>

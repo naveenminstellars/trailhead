@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento adicional</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos adicionales</value>
+    </caseValues>
+    <fields>
+        <help>Establezca el orden en el que este artículo aparecerá para un usuario de ventas en el menú Contenido relacionado. Si se deja en blanco, el contenido se ordenará en último lugar.</help>
+        <label></label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help>Ingrese un nombre de archivo para el contenido relacionado.</help>
+        <label></label>
+        <name>SBQQ__DocumentName__c</name>
+    </fields>
+    <fields>
+        <help>Id. del registro que contiene el contenido, como un documento o contenido de Salesforce.</help>
+        <label></label>
+        <name>SBQQ__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Oportunidad relacionada con este contenido.</help>
+        <label></label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Producto relacionado con este contenido.</help>
+        <label></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Plantilla relacionada con este contenido.</help>
+        <label></label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Presupuesto relacionado con este contenido.</help>
+        <label></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Seleccione la casilla de verificación si se requiere este contenido para el producto. Los usuarios deben incluirlo cuando generan un documento de presupuesto.</help>
+        <label></label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help>Sección de plantilla relacionada con este contenido.</help>
+        <label></label>
+        <name>SBQQ__TemplateSection__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Documento adicional</nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__NewQuoteRelatedContent</name>
+    </webLinks>
+</CustomObjectTranslation>

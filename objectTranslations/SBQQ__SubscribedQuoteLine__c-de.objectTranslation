@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Abonnierte Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Dative</caseType>
+        <plural>false</plural>
+        <value>Abonniertem Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Accusative</caseType>
+        <plural>false</plural>
+        <value>Abonnierten Angebotsbelegposten</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Genitive</caseType>
+        <plural>false</plural>
+        <value>Abonnierten Angebotsbelegpostens</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Abonnierter Angebotsbelegposten</value>
+    </caseValues>
+    <fields>
+        <help>Gibt an, ob der abonnierte Vermögenswertdatensatz aktiv ist.</help>
+        <label></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Menge des Vermögenswerts, die im Angebotsbelegposten enthalten ist.</help>
+        <label></label>
+        <name>SBQQ__AssetQuoteLineQuantity__c</name>
+    </fields>
+    <fields>
+        <help>Vermögenswert-Angebotsbelegposten, der durch einen Abonnement-Angebotsbelegposten abgedeckt wird.</help>
+        <label></label>
+        <name>SBQQ__AssetQuoteLine__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Gibt das Angebot für die Angebotsbelegposten an.</help>
+        <label></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Preis pro Einheit, der zur Berechnung von &quot;Prozent vom Gesamtwert&quot; verwendet wird.</help>
+        <label></label>
+        <name>SBQQ__SubscriptionBasePrice__c</name>
+    </fields>
+    <fields>
+        <help>Nettogesamtbetrag des Abonnement-Angebotsbelegpostens.</help>
+        <label></label>
+        <name>SBQQ__SubscriptionNetTotal__c</name>
+    </fields>
+    <fields>
+        <help>Abonnement-Angebotsbelegposten, der den Vermögenswert-Angebotsbelegposten abdeckt.</help>
+        <label></label>
+        <name>SBQQ__SubscriptionQuoteLine__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nummer des abonnierten Angebotsbelegpost</nameFieldLabel>
+</CustomObjectTranslation>
