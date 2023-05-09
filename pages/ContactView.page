@@ -1,0 +1,16 @@
+<apex:page standardController="Contact">
+    <apex:form >
+        <apex:pageBlock title="Edit Contact">
+            <apex:pageBlockSection columns="1">
+            <h1>
+            This is free text
+            </h1>
+                {!Contact.FirstName}
+                {!Contact.LastName}
+                {!Contact.Email}
+                
+            </apex:pageBlockSection>
+            
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
