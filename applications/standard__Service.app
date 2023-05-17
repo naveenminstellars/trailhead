@@ -12,7 +12,4 @@
     <tabs>standard-Solution</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>learn_College__c</tabs>
-    <tabs>Tickets__c</tabs>
-    <tabs>ContactEdit</tabs>
 </CustomApplication>

@@ -1,9 +1,0 @@
-Hi {!learn_College__c.Name},
-
-This is college name.
-{!learn_College__c.State__c}
-{!learn_College__c.Link}
-
-
-Thanks
-Arif

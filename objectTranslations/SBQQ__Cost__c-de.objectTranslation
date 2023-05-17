@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kosten</value>
+    </caseValues>
+    <fields>
+        <help>Aktivieren Sie dieses Kontrollkästchen, um die Kosten zu aktivieren.</help>
+        <label></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help>Produkt, das mit diesen Kosten verknüpft ist.</help>
+        <label></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Geben Sie die Stückkosten ein.</help>
+        <label></label>
+        <name>SBQQ__UnitCost__c</name>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Kosten – Nummer</nameFieldLabel>
+</CustomObjectTranslation>

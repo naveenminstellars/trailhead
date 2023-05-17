@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__IsRead__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__JobDetails__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__JobId__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__JobStatus__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__RecordId__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__RedirectUrl__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__Stacktrace__c</name>
+    </fields>
+</CustomObjectTranslation>

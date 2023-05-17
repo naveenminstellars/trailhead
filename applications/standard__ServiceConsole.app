@@ -180,15 +180,7 @@
     <tabs>standard-Case</tabs>
     <tabs>standard-Opportunity</tabs>
     <tabs>standard-Lead</tabs>
-    <tabs>Tickets__c</tabs>
-    <tabs>ContactEdit</tabs>
     <workspaceConfig>
-        <mappings>
-            <tab>ContactEdit</tab>
-        </mappings>
-        <mappings>
-            <tab>Tickets__c</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

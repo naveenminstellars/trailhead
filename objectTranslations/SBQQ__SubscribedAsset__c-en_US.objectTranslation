@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__Active__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__AssetRootId__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__Asset__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__ContractId__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__Subscription__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__UsageEndDate__c</name>
+    </fields>
+</CustomObjectTranslation>

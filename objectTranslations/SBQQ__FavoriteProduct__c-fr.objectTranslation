@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Produit favori</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Produits favoris</value>
+    </caseValues>
+    <fields>
+        <label></label>
+        <name>SBQQ__ConfigurationAttributes__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__DiscountSchedule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Identifier la fonctionnalité et l&apos;option dynamique de cette ligne.</help>
+        <label></label>
+        <name>SBQQ__DynamicOptionId__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__Favorite__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__ProductOption__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__Quantity__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__RequiredBy__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Nom du produit favori</nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

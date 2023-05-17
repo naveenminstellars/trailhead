@@ -1,4 +1,0 @@
-New ticket creation notification {!Tickets__c.Name}
-it was created by {!Tickets__c.CreatedBy}
-
-Link - {!Tickets__c.Link}

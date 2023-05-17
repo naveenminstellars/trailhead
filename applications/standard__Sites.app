@@ -5,6 +5,4 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <tabs>standard-Chatter</tabs>
-    <tabs>Tickets__c</tabs>
-    <tabs>ContactEdit</tabs>
 </CustomApplication>

@@ -9,6 +9,4 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Tickets__c</tabs>
-    <tabs>ContactEdit</tabs>
 </CustomApplication>

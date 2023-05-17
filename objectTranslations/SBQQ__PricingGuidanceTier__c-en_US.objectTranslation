@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__FloorDiscount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__LowerBound__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__NormDiscount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__PricingGuidance__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__TargetDiscount__c</name>
+    </fields>
+    <fields>
+        <help></help>
+        <label></label>
+        <name>SBQQ__UpperBound__c</name>
+    </fields>
+</CustomObjectTranslation>

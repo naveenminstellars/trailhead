@@ -128,6 +128,7 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AuthorizationFormId</fullName>
         <trackHistory>false</trackHistory>
@@ -154,7 +155,7 @@
         <trackHistory>false</trackHistory>
     </fields>
     <listViews>
-        <fullName>All_AuthorizationFormText</fullName>
+        <fullName>All_AuthorizationFormTexts</fullName>
         <filterScope>Everything</filterScope>
         <label>All Authorization Form Text</label>
     </listViews>

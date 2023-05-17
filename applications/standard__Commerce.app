@@ -12,12 +12,8 @@
     <tabs>standard-Contact</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Order</tabs>
-    <tabs>ContactEdit</tabs>
     <uiType>Lightning</uiType>
     <workspaceConfig>
-        <mappings>
-            <tab>ContactEdit</tab>
-        </mappings>
         <mappings>
             <tab>standard-Account</tab>
         </mappings>

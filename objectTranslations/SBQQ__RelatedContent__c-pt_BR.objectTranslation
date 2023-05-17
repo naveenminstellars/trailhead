@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Documento adicional</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Documentos adicionais</value>
+    </caseValues>
+    <fields>
+        <help>Defina a ordem em que esse item aparecerá a um usuário de vendas no menu Conteúdo relacionado. Se ficar em branco, o conteúdo será classificado por último.</help>
+        <label></label>
+        <name>SBQQ__DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help>Insira um nome de arquivo para o conteúdo relacionado.</help>
+        <label></label>
+        <name>SBQQ__DocumentName__c</name>
+    </fields>
+    <fields>
+        <help>ID do registro que detém o conteúdo, como documento ou Salesforce Content.</help>
+        <label></label>
+        <name>SBQQ__ExternalId__c</name>
+    </fields>
+    <fields>
+        <help>Oportunidade relacionada a esse conteúdo.</help>
+        <label></label>
+        <name>SBQQ__Opportunity__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Produto relacionado a esse conteúdo.</help>
+        <label></label>
+        <name>SBQQ__Product__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Modelo relacionado a esse conteúdo.</help>
+        <label></label>
+        <name>SBQQ__QuoteTemplate__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Cotação relacionada a esse conteúdo.</help>
+        <label></label>
+        <name>SBQQ__Quote__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Selecione a caixa de seleção se esse conteúdo for exigido para o produto. Os usuários devem incluí-lo ao gerar um documento de cotação.</help>
+        <label></label>
+        <name>SBQQ__Required__c</name>
+    </fields>
+    <fields>
+        <help>Seção do modelo relacionada a esse conteúdo.</help>
+        <label></label>
+        <name>SBQQ__TemplateSection__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <gender>Masculine</gender>
+    <nameFieldLabel>Documento adicional</nameFieldLabel>
+    <webLinks>
+        <label></label>
+        <name>SBQQ__NewQuoteRelatedContent</name>
+    </webLinks>
+</CustomObjectTranslation>

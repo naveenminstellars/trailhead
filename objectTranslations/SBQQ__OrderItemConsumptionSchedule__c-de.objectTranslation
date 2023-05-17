@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Auftragsposten-Verbrauchsregelung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Auftragsposten-Verbrauchsregelungen</value>
+    </caseValues>
+    <fields>
+        <help>Die mit dem Abrechnungsintervall verwendete Einheit zur Festlegung der Abrechnungshäufigkeit.</help>
+        <label></label>
+        <name>SBQQ__BillingTermUnit__c</name>
+        <picklistValues>
+            <masterLabel>Month</masterLabel>
+            <translation>Monat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quarter</masterLabel>
+            <translation>Quartal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Year</masterLabel>
+            <translation>Jahr</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Die mit der Abrechnungsintervalleinheit verwendete Zahl zur Festlegung der Abrechnungshäufigkeit.</help>
+        <label></label>
+        <name>SBQQ__BillingTerm__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__Category__c</name>
+        <picklistValues>
+            <masterLabel>Rates</masterLabel>
+            <translation>Raten</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__ConsumptionSchedule__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__Description__c</name>
+    </fields>
+    <fields>
+        <help>Die Nutzung wird mit einer Verbrauchsregelung abgeglichen, um herauszufinden, ob die Datensätze denselben Wert für das Abgleichsattribut aufweisen.</help>
+        <label></label>
+        <name>SBQQ__MatchingAttribute__c</name>
+    </fields>
+    <fields>
+        <label></label>
+        <name>SBQQ__OrderItem__c</name>
+        <relationshipLabel></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Wählen Sie einen spezifischen Anwendungsfall aus, um die Nutzung auf der Grundlage dieses Plans zu bewerten. Dies ist eine steuernde Auswahlliste für das Feld &quot;Typ&quot;.</help>
+        <label></label>
+        <name>SBQQ__RatingMethod__c</name>
+        <picklistValues>
+            <masterLabel>Tier</masterLabel>
+            <translation>Klasse</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Bereich: Die Preisberechnung erfolgt ausschließlich auf Grundlage der Stufe, die der Nutzungsmenge entspricht. Spanne: Die Nutzung innerhalb eines vorgegebenen Rahmens wird entsprechend dem Wert der Stufe berechnet.</help>
+        <label></label>
+        <name>SBQQ__Type__c</name>
+        <picklistValues>
+            <masterLabel>Range</masterLabel>
+            <translation>Bereich</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slab</masterLabel>
+            <translation>Durchschnitt</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Für diese Maßeinheit gelten Nutzungsmengen und -werte.</help>
+        <label></label>
+        <name>SBQQ__UnitOfMeasure__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation>Keine</translation>
+        </picklistValues>
+    </fields>
+    <gender>Feminine</gender>
+    <nameFieldLabel>Name der Auftragsposten-Verbrauchsregelu</nameFieldLabel>
+</CustomObjectTranslation>
