@@ -5984,6 +5984,7 @@
         <members>Task.UnscheduledTasks</members>
         <members>User.ActiveUsers</members>
         <members>User.AdminUsers</members>
+        <members>User.AdminUsers1</members>
         <members>User.AllUsers</members>
         <members>WorkOrder.All_WorkOrders</members>
         <members>WorkOrder.My_WorkOrders</members>
@@ -6107,6 +6108,7 @@
         <name>QuickAction</name>
     </types>
     <types>
+        <members>Contact.Employee</members>
         <members>Idea.InternalIdeasIdeaRecordType</members>
         <members>SBQQ__ConfigurationAttribute__c.SBQQ__Configuration_Attribute</members>
         <members>SBQQ__ConfigurationAttribute__c.SBQQ__Global_Attribute</members>
